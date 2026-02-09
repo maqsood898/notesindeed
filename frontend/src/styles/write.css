@@ -1,0 +1,60 @@
+.add {
+    margin-left: 1rem;
+}
+
+.form-title {
+    text-align: center;
+    font-size: 24px;
+}
+
+.add_form {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 2rem;
+}
+
+.add-form-inputs {
+    width: 85%;
+    height: 30px;
+    margin: 1rem 0;
+    padding: 6px;
+    padding-left: 12px;
+    border-radius: 2rem;
+    border: none;
+    font-size: 16px;
+}
+
+.upload-details {
+    width: 95%;
+}
+
+.add_form textarea {
+    height: 40%;
+}
+
+.sel-sub {
+    height: 32px;
+}
+
+.inp-file {
+    border: none;
+}
+
+.shadow {
+    box-shadow: 0px 0px 2px #ccc;
+    border-radius: 13px;
+}
+
+.shadow:hover {
+    box-shadow: 1px 1px 5px #ccc;
+}
+
+.shadow:focus {
+    outline: none;
+}
+
+.upload-select {
+    display: flex;
+    gap: 1rem;
+    width: 83%;
+}
