@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+}
+
+.about-opt {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+    line-height: 24px;
+    font-size: 18px;
+}
+
+.about-opt img {
+    width: 270px;
+}
+
+.about-detail {
+    background: #f9f7ede0;
+    height: 100%;
+    width: 100%;
+    padding: 4rem 1rem;
+    border-radius: 1rem;
+}
